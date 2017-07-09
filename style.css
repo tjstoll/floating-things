@@ -1,0 +1,69 @@
+body {
+	margin: -1px;
+}
+
+html {
+	margin: 1px;
+	font-family: "Verdana";
+}
+
+/* Test code ---------------------------------------------------------------- */
+
+#test {
+	background: green;
+	min-height: 10em;
+	padding: 2em;
+	display: none;
+}
+
+#highlight {
+	background: yellow;
+}
+
+/* Real code ---------------------------------------------------------------- */
+
+#animation {
+	height: 100vh;
+	background: #11415B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow: hidden;
+}
+
+#text {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: center;
+	color: #fff;
+	z-index: 2;
+}
+
+#circle {
+	border-radius: 50%;
+	position: absolute;
+}
+
+#scrollWords {
+	height: 2.5em;
+	overflow: hidden;
+}
+
+#scrollWords h1 {
+	animation: scrollup 10s 2s infinite ease;
+	font-size: 2em;
+	margin: -1px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+@keyframes scrollup {
+	0% {top: 0em;}
+	20% {top: -1.25em;}
+	40% {top: -2.4em;}
+	60% {top: -3.6em;	}
+	80% {top: 0em;}
+	100% {top: 0em;}
+}

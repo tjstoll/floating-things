@@ -1,0 +1,23 @@
+{
+  "name": "floating-things",
+  "version": "1.0.0",
+  "description": "A simple project to make things float",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjstoll/floating-things.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjstoll/floating-things/issues"
+  },
+  "homepage": "https://github.com/tjstoll/floating-things#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1"
+  }
+}
